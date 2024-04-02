@@ -1,26 +1,52 @@
-# Coded by ph1n3y
+# o1xport
 
-# Port Scanner
+## Overview
 
-A simple port scanner written in Python for penetration testing purposes.
+o1xport is a versatile port scanning tool written in Python, designed for penetration testing and network reconnaissance. It provides a fast and efficient way to scan target hosts for open ports, allowing security analysts to identify potential vulnerabilities.
 
-## How to Use
+## Features
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Run the port scanner script `python port_scanner.py <target_host> <start_port> <end_port>`.
-   - `<target_host>`: The target host to scan.
-   - `<start_port>`: The starting port number for scanning.
-   - `<end_port>`: The ending port number for scanning.
-4. The script will then scan the specified range of ports on the target host and print out open ports.
+- Simple command-line interface.
+- Multi-threaded port scanning for improved performance.
+- Customizable port range selection.
+- Lightweight and easy to use.
 
-## Requirements
+## Installation
 
-- Python 3.x
-- argparse
-- concurrent.futures
-- socket
+1. Clone this repository to your local machine:
 
-## Disclaimer
+   ```bash
+   git clone https://github.com/username/o1xport.git
 
-This tool is meant for educational and penetration testing purposes only. Unauthorized scanning of systems may be illegal in certain jurisdictions. Use at your own risk.
+# Navigate to the project directory:
+
+cd o1xport
+Install the required dependencies using pip:
+
+pip install -r requirements.txt
+
+# Usage
+Run the port scanner script with the following command:
+
+
+python port_scanner.py <target_host> <start_port> <end_port>
+<target_host>: The target host to scan.
+<start_port>: The starting port number.
+<end_port>: The ending port number.
+For example:
+
+python3 o1xport.py example.com 1 1024
+
+
+
+# Author
+# o1xport was coded by ph1n3y.
+
+# Disclaimer
+This tool is intended for educational and penetration testing purposes only. Unauthorized scanning of systems may be illegal in certain jurisdictions. Use responsibly and at your own risk.
+
+
+
+
+
+
