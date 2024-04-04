@@ -29,7 +29,7 @@ pip install -r requirements.txt
 Run the port scanner script with the following command:
 
 
-python port_scanner.py <target_host> <start_port> <end_port>
+o1xport.py <target_host> <start_port> <end_port>
 <target_host>: The target host to scan.
 <start_port>: The starting port number.
 <end_port>: The ending port number.
