@@ -40,7 +40,7 @@ python3 o1xport.py example.com 1 1024
 
 
 # Author
- o1xport was coded by ph1n3y!.
+ o1xport was coded by ph1n3y!
 
 # Disclaimer
 This tool is intended for educational and penetration testing purposes only. Unauthorized scanning of systems may be illegal in certain jurisdictions. Use responsibly and at your own risk.
